@@ -166,7 +166,9 @@ body {
 
 .image-gallery {
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
 }
 
 .image-item {
